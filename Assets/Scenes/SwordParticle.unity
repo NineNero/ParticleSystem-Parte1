@@ -10091,7 +10091,7 @@ ParticleSystem:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1011445883}
   serializedVersion: 8
-  lengthInSec: 4
+  lengthInSec: 5
   simulationSpeed: 1
   stopAction: 0
   cullingMode: 0
@@ -10166,7 +10166,7 @@ ParticleSystem:
     startLifetime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 5
+      scalar: 6
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -15104,8 +15104,8 @@ ParticleSystem:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1735569722}
   serializedVersion: 8
-  lengthInSec: 5
-  simulationSpeed: 0.24
+  lengthInSec: 1
+  simulationSpeed: 0.09
   stopAction: 0
   cullingMode: 0
   ringBufferMode: 0
@@ -16716,7 +16716,7 @@ ParticleSystem:
         m_RotationOrder: 4
     orbitalX:
       serializedVersion: 2
-      minMaxState: 0
+      minMaxState: 3
       scalar: 0
       minScalar: 0
       maxCurve:
@@ -16769,7 +16769,7 @@ ParticleSystem:
         m_RotationOrder: 4
     orbitalY:
       serializedVersion: 2
-      minMaxState: 0
+      minMaxState: 3
       scalar: 0
       minScalar: 0
       maxCurve:
@@ -16822,7 +16822,7 @@ ParticleSystem:
         m_RotationOrder: 4
     orbitalZ:
       serializedVersion: 2
-      minMaxState: 0
+      minMaxState: 3
       scalar: 0
       minScalar: 0
       maxCurve:
@@ -17088,7 +17088,7 @@ ParticleSystem:
     speedModifier:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.25
+      scalar: 10
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -20071,7 +20071,7 @@ ParticleSystem:
   startDelay:
     serializedVersion: 2
     minMaxState: 0
-    scalar: 1
+    scalar: 5
     minScalar: 0
     maxCurve:
       serializedVersion: 2
@@ -20762,7 +20762,7 @@ ParticleSystem:
     m_TextureColorAffectsParticles: 1
     m_TextureAlphaAffectsParticles: 1
     m_TextureBilinearFiltering: 0
-    randomDirectionAmount: 0
+    randomDirectionAmount: 1
     sphericalDirectionAmount: 0
     randomPositionAmount: 0
     radius:
@@ -20885,7 +20885,7 @@ ParticleSystem:
     rateOverTime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 1
+      scalar: 3
       minScalar: 10
       maxCurve:
         serializedVersion: 2
@@ -22368,7 +22368,7 @@ ParticleSystem:
     randomizePerFrame: 0
   ExternalForcesModule:
     serializedVersion: 2
-    enabled: 0
+    enabled: 1
     multiplierCurve:
       serializedVersion: 2
       minMaxState: 0
@@ -23406,7 +23406,7 @@ ParticleSystem:
     enabled: 0
     x:
       serializedVersion: 2
-      minMaxState: 0
+      minMaxState: 3
       scalar: 0
       minScalar: 0
       maxCurve:
@@ -23459,7 +23459,7 @@ ParticleSystem:
         m_RotationOrder: 4
     y:
       serializedVersion: 2
-      minMaxState: 0
+      minMaxState: 3
       scalar: 0
       minScalar: 0
       maxCurve:
@@ -23512,7 +23512,7 @@ ParticleSystem:
         m_RotationOrder: 4
     curve:
       serializedVersion: 2
-      minMaxState: 0
+      minMaxState: 3
       scalar: 0.7853982
       minScalar: 0.7853982
       maxCurve:
